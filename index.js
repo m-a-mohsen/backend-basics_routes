@@ -1,3 +1,5 @@
-// import { server } from "./server.js";
+import { server, PORT } from "./server.js";
 
-// server.listen(…
+server.listen(PORT, () => {
+    console.log(`Listining to PORT ${PORT}`)
+})
